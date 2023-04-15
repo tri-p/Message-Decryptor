@@ -8,6 +8,9 @@ encrypted_str = input("Enter a string to decrypt: ")
 for i in range(len(encrypted_str)):
 
 # Convert '*' to 'a'
+    if encrypted_str[i] == "*":
+        decrypted_str += "a"
+
 # Convert '&' to 'e'
 # Convert '#' to 'i'
 # Convert '+' to 'o'
