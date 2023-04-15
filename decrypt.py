@@ -2,7 +2,8 @@
 # PROBLEM 2: DECRYPTION 
 # Pseudocode
 # Ask the user for an encrypted text then save it
-encrypted_str = input("Enter a string to decrypt: ")
+print("\033[93m=" * 80, "\n")
+encrypted_str = input("\033[92mEnter a string to decrypt: \033[97m")
 decrypted_str = ""
 
 # Check every character
@@ -31,4 +32,6 @@ for i in range(len(encrypted_str)):
         decrypted_str += encrypted_str[i]
 
 # Print the output
-print("The Plain Text:", decrypted_str)
+print("\n", "\033[93m=" * 80, "\n")
+print("\033[1m\033[95mThe Plain Text:\x1B[3m\033[97m", decrypted_str)
+print("\n", "\033[93m=" * 80, "\n")
