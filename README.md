@@ -11,5 +11,5 @@ It is a program written in Python that will accept a string as encrypted text an
 ### Sample output
 '''
 Enter a string to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g.
-The Plain Text:  the quick brown fox jumps over the lazy dog.
+. The Plain Text:  the quick brown fox jumps over the lazy dog.
 '''
