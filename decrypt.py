@@ -3,6 +3,7 @@
 # Pseudocode
 # Ask the user for an encrypted text then save it
 encrypted_str = input("Enter a string to decrypt: ")
+decrypted_str = ""
 
 # Check every character
 for i in range(len(encrypted_str)):
@@ -30,3 +31,4 @@ for i in range(len(encrypted_str)):
         decrypted_str += encrypted_str[i]
 
 # Print the output
+print("The Plain Text:", decrypted_str)
