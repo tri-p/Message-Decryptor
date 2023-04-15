@@ -20,5 +20,8 @@ for i in range(len(encrypted_str)):
         decrypted_str += "i"
 
 # Convert '+' to 'o'
+    elif encrypted_str[i] == "+":
+        decrypted_str += "o"
+
 # Convert '!' to 'u'
 # Print the output
