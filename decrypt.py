@@ -24,4 +24,9 @@ for i in range(len(encrypted_str)):
         decrypted_str += "o"
 
 # Convert '!' to 'u'
+    elif encrypted_str[i] == "!":
+        decrypted_str += "u"
+    else:
+        decrypted_str += encrypted_str[i]
+
 # Print the output
