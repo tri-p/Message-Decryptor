@@ -16,6 +16,8 @@ for i in range(len(encrypted_str)):
         decrypted_str += "e"
 
 # Convert '#' to 'i'
+    elif encrypted_str[i] == "#":
+        decrypted_str += "i"
 
 # Convert '+' to 'o'
 # Convert '!' to 'u'
