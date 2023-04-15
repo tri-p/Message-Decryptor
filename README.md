@@ -6,7 +6,7 @@ It is a program written in Python that will accept a string as encrypted text an
 ### To run the program
 1. Open the file 
 2. Input an encrypted text that have the characters '*', '&', '#', '+', and '!'.
-3. Run the code and it the output will be the decrypted text of the message.
+3. Run the code and the output will be the decrypted text of the message.
 
 ### Sample output
 ```
